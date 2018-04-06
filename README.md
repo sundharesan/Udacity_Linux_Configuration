@@ -3,29 +3,23 @@
 
 
 ## Amazon LightSail instance
-Public IP: 35.178.50.92
+Public IP: 18.130.16.36
 
 SSH Port: 2200
 
-Complete URL: http://35.178.50.92
+Complete URL: http://18.130.16.36
 
 ### Steps of configuration
 
 1. Create an account and select Ubuntu OS on [Amazon Lightsail] (https://lightsail.aws.amazon.com) and download the private key (PK).
 
-Change the access permission of the Public Key running the following:
-```
-$ chmod 400 LightsailDefaultKey.pem
-``` 
+Open puttygen --> Import the private key pem in the puttygen and save the private key.
 
-2. Follow the instructions provided to SSH into your server.
+2. Open the putty
 
-Access the machine with ssh:
+Add the public IP with port number 22 and add the ppk file that you have saved in the previous step under ssh--> auth.
 
-```
-$ ssh ubuntu@35.178.50.92 -p 22 -i LightsailDefaultKey.pem
-```
-
+Login as Ubuntu.
 
 3. Update all currently installed packages.
 
@@ -153,6 +147,8 @@ $ sudo pip install psycopg2
 $ sudo pip install flask
 $ sudo pip install oauth2client
 $ sudo pip install requests
+$ sudo pip install sqlalchemy_utils
+
 ```
 
 18. Now you can run *database_setup.py* file to create tables for your ItemCatalog project.
@@ -234,7 +230,7 @@ Remove port SSH TCP 22
 28. Now update Facebook & Google Auth services to allow access for you public IP.
 
 
-29. Your item catalog was ready on http://35.178.50.92
+29. Your item catalog was ready on http://18.130.16.36
 
 
 30. Use below command to check log if you are facing any errors.
