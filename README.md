@@ -148,6 +148,7 @@ $ sudo pip install flask
 $ sudo pip install oauth2client
 $ sudo pip install requests
 $ sudo pip install sqlalchemy_utils
+$ sudo pip install psycopg2-binary
 
 ```
 
