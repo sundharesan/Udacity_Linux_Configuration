@@ -3,11 +3,11 @@
 
 
 ## Amazon LightSail instance
-Public IP: 18.130.16.36
+Public IP: 35.176.97.171
 
 SSH Port: 2200
 
-Complete URL: http://18.130.16.36
+Complete URL: http://35.176.97.171/
 
 ### Steps of configuration
 
@@ -231,7 +231,7 @@ Remove port SSH TCP 22
 28. Now update Facebook & Google Auth services to allow access for you public IP.
 
 
-29. Your item catalog was ready on http://18.130.16.36
+29. Your item catalog was ready on http://35.176.97.171/
 
 
 30. Use below command to check log if you are facing any errors.
