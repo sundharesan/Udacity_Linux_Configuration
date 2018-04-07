@@ -238,3 +238,10 @@ Remove port SSH TCP 22
 ```
 cat /var/log/apache2/error.log
 ```
+
+31. List of references
+
+https://help.ubuntu.com/lts/serverguide/automatic-updates.html
+https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server
+
+
